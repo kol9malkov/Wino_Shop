@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-screen {
+  background: url(images/bgc1.png) no-repeat;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 0px 350px;
+}
+
+/* HEADER */
+.screen-up {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.screen-up a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 583px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+
+  padding: 13px 0px;
+}
+
+.menu-item:hover {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+.btn {
+  background-color: #99862a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+
+  padding: 15px 30px;
+  margin: 0px 30px;
+}
+
+.text {
+  background: #282828;
+  padding: 100px 0px;
+}
+
+.text-content {
+  border: 3px solid #c4c4c4;
+}
+
+.text-content h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  padding-top: 60px;
+}
+
+.text-dec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 60px 150px;
+}
+
+.text-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+/* Коллекция */
+.collection {
+  background-color: #e6e3c4;
+  padding: 80px 0px;
+}
+
+.col-content {
+  background-color: pink;
+  border-top: 1px solid #998431;
+  border-bottom: 1px solid #998431;
+  /* display: flex; */
+}
+
+.suptitle {
+  font-size: 16px;
+  font-weight: 400;
+
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.col-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.wine-table {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.col-foter {
+  font-size: 14px;
+  font-weight: 400;
+}
